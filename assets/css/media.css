@@ -27,6 +27,9 @@
     .ae-form-box{
         width: 360px !important;
     }
+    .ae-item{
+        display: none !important;
+    }
 }
 @media (max-width: 767px){
     .ae-btn-first{
