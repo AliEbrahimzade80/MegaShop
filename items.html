@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/Logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mega Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- start of menu -->
+    <div class="container">
+        <div class="row ae-up-navbar">
+            <div class="col-3 ae-logo">
+                <span class="ae-border-line"></span>
+                <img src="assets/img/logo.png" alt="logo">
+            </div>
+            <div class="col ae-buttons d-flex justify-content-end">
+                <button class="ae-btn-first">
+                    <a href="login.html">
+                    ثبت نام / ورود
+                    <i class="bi bi-box-arrow-in-left"></i>
+                    </a>
+                </button>
+
+                <button class="ae-btn-first" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-cart"></i></button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">محصولات</h5>
+                    <div class="delete-all">حذف همه</div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="ae-offcanvas-box">
+                        <div class="item1 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/mobile1.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn1">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item2 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/mobile2.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn2">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item3 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/mobile3.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn3">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item4 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/watch1.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn4">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item5 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/watch2.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn5">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item6 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/watch3.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn6">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item7 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/labtop1.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn7">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item8 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/labtop3.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn8">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item9 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market1.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn9">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item10 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market2.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn10">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item11 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market3.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn11">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item12 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market4.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn12">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item13 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market5.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn13">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item14 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market6.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn14">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item15 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market7.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn15">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item16 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/market8.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn16">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item17 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/pishnehad-item12.jpg" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn17">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item18 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book1.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn18">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item19 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book2.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn19">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item20 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book3.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn20">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item21 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book4.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn21">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>    
+                        <div class="item22 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book5.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn22">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item23 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book6.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn23">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                        <div class="item24 row d-none mb-3">
+                            <div class="col-4">
+                                <img src="assets/img/book7.webp" alt="">
+                            </div>
+                            <div class="col-5 ae-mid-offcanvas">
+                                <p>سامسونگ A14</p>
+                                <div class="delete-btn24">حذف</div>
+                            </div>
+                            <div class="col-3 counter">
+                                <div class="ae-arrow increseNum"><i class="bi bi-arrow-up-circle-fill"></i></div>
+                                <p class="mt-2 number">1</p>
+                                <div class="ae-arrow decreaseNum"><i class="bi bi-arrow-down-circle-fill"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12 col-lg-8 ae-menu">
+                <nav>
+                    <div class="ae-item ae-text-second">
+                        <a href="index.html">صفحه اصلی</a>
+                    </div>
+                    <a href="contact.html" class="ae-item">ارتباط با ما</a>
+                    <a href="" class="ae-item">سوالی دارید؟</a>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-4 ae-search d-flex justify-content-end">
+                <div class="ae-search-box me-4">
+                    <button class="ae-btn-search"><i class="bi bi-search ae-text-second"></i></button>
+                    <input type="text" class="ae-input-search" placeholder="جستجوی...">
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of menu -->
+
+    <!-- start of banner -->
+    <div class="container-fluid">
+        <div class="row ae-banner2">
+            <img src="assets/img/baner2.webp" alt="">
+        </div>
+    </div>
+    <!-- end of banner -->
+
+    <!-- start of items -->
+    <div class="container">
+        <nav>
+            <div class="ae-item ae-text-second">
+                <div><i class="bi bi-funnel-fill"></i> فیلتر</div>
+                <div class="ae-dropdown d-sm-inline-block ">
+                    <div class="ae-dropdown-box">
+                        <div class="all-click">کل محصولات</div>
+                        <div class="digital-click">کالای دیجیتال</div>
+                        <div class="market-click">کالای سوپرمارکتی</div>
+                        <div class="book-click">کتاب و لوازم تحریر</div>
+                        <div class="off-click">کالای تخفیفی</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="border w-100 mt-3"></div>
+        <div class="row ae-kalaha mt-3 justify-content-center">
+            <div class="col-3 all market book">
+                <img src="assets/img/mobile1.webp" alt="">
+                <div class="ae-off-badge">10%</div>
+                <div class="ae-off-price">6,500,000 تومان</div>
+                <div class="ae-price">5,850,000 تومان</div>
+                <button class="item1-btn" onclick="addingAlert() , increseNum()" onclick="">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/mobile2.webp" alt="">
+                <div class="ae-off-badge">15%</div>
+                <div class="ae-off-price">7,400,000 تومان</div>
+                <div class="ae-price">6,290,000 تومان</div>
+                <button class="item2-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/mobile3.webp" alt="">
+                <div class="ae-off-badge">7%</div>
+                <div class="ae-off-price">5,000,000 تومان</div>
+                <div class="ae-price">4,650,000 تومان</div>
+                <button class="item3-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/watch1.webp" alt="">
+                <div class="ae-off-badge">12%</div>
+                <div class="ae-off-price">2,700,000 تومان</div>
+                <div class="ae-price">2,370,000 تومان</div>
+                <button class="item4-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/watch2.webp" alt="">
+                <div class="ae-off-badge">20%</div>
+                <div class="ae-off-price">3,000,000 تومان</div>
+                <div class="ae-price">2,400,000 تومان</div>
+                <button class="item5-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/watch3.webp" alt="">
+                <div class="ae-off-badge">5%</div>
+                <div class="ae-off-price">1,100,000 تومان</div>
+                <div class="ae-price">1,045,000 تومان</div>
+                <button class="item6-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/labtop1.webp" alt="">
+                <div class="ae-off-badge">10%</div>
+                <div class="ae-off-price">15,000,000 تومان</div>
+                <div class="ae-price">13,500,000 تومان</div>
+                <button class="item7-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all market book">
+                <img src="assets/img/labtop3.webp" alt="">
+                <div class="ae-off-badge">9%</div>
+                <div class="ae-off-price">17,550,000 تومان</div>
+                <div class="ae-price">15,970,000 تومان</div>
+                <button class="item8-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market1.jpg" alt="">
+                <div class="ae-off-badge">20%</div>
+                <div class="ae-off-price">25,000 تومان</div>
+                <div class="ae-price">20,000 تومان</div>
+                <button class="item9-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market2.jpg" alt="">
+                <div class="ae-off-badge">15%</div>
+                <div class="ae-off-price">65,000 تومان</div>
+                <div class="ae-price">55,250 تومان</div>
+                <button class="item10-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market3.jpg" alt="">
+                <div class="ae-off-badge">15%</div>
+                <div class="ae-off-price">480,000 تومان</div>
+                <div class="ae-price">408,000 تومان</div>
+                <button class="item11-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market4.jpg" alt="">
+                <div class="ae-off-badge">40%</div>
+                <div class="ae-off-price">120,000 تومان</div>
+                <div class="ae-price">72,000 تومان</div>
+                <button class="item12-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market5.jpg" alt="">
+                <div class="ae-off-badge">25%</div>
+                <div class="ae-off-price">70,000 تومان</div>
+                <div class="ae-price">52,500 تومان</div>
+                <button class="item13-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market6.jpg" alt="">
+                <div class="ae-off-badge">9%</div>
+                <div class="ae-off-price">200,000 تومان</div>
+                <div class="ae-price">182,000 تومان</div>
+                <button class="item14-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market7.jpg" alt="">
+                <div class="ae-off-badge">18%</div>
+                <div class="ae-off-price">20,000 تومان</div>
+                <div class="ae-price">16,400 تومان</div>
+                <button class="item15-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital book">
+                <img src="assets/img/market8.jpg" alt="">
+                <div class="ae-off-badge">10%</div>
+                <div class="ae-off-price">100,000 تومان</div>
+                <div class="ae-price">90,000 تومان</div>
+                <button class="item16-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/pishnehad-item12.jpg" alt="">
+                <div class="ae-price">80,000 تومان</div>
+                <button class="item17-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book1.webp" alt="">
+                <div class="ae-price">10,000 تومان</div>
+                <button class="item18-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book2.webp" alt="">
+                <div class="ae-price">15,000 تومان</div>
+                <button class="item19-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book3.webp" alt="">
+                <div class="ae-price">140,000 تومان</div>
+                <button class="item20-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book4.webp" alt="">
+                <div class="ae-price">160,000 تومان</div>
+                <button class="item21-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book5.webp" alt="">
+                <div class="ae-price">250,000 تومان</div>
+                <button class="item22-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book6.webp" alt="">
+                <div class="ae-price">30,000 تومان</div>
+                <button class="item23-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+            <div class="col-3 all digital market off">
+                <img src="assets/img/book7.webp" alt="">
+                <div class="ae-price">60,000 تومان</div>
+                <button class="item24-btn" onclick="addingAlert()">افزودن به سبد خرید</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of items -->
+
+    <!-- start of banner -->
+    <div class="container-fluid">
+        <div class="row ae-banner2 mb-3">
+            <img src="assets/img/baner3.webp" alt="">
+        </div>
+    </div>
+    <!-- end of banner -->
+
+
+    <!-- start of footer -->
+    <div class="container-fluid ae-bg-first ae-text-second">
+        <div class="container ae-footer">
+            <div class="ae-footer-title">مگاشاپ</div>
+            <span>تلفن پشتیبانی: 55555555-021</span>
+            <span>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span>
+            <div class="row ae-footer-up mt-3">
+                <div class="col">
+                    <div><img src="assets/img/footer1.svg" alt=""></div>
+                    <div>امکان تحویل اکسپرس</div>
+                </div>
+                <div class="col">
+                    <div><img src="assets/img/footer2.svg" alt=""></div>
+                    <div>امکان پرداخت در محل</div>
+                </div>
+                <div class="col">
+                    <div><img src="assets/img/footer3.svg" alt=""></div>
+                    <div>7 روز هفته، 24 ساعته</div>
+                </div>
+                <div class="col">
+                    <div><img src="assets/img/footer4.svg" alt=""></div>
+                    <div>7 روز ضمانت برگشت کالا</div>
+                </div>
+                <div class="col">
+                    <div><img src="assets/img/footer5.svg" alt=""></div>
+                    <div>ضمانت اصل بودن کالا</div>
+                </div>
+            </div>
+            <div class="row ae-footer-mid mt-3">
+                <div class="col-3">
+                    <div>با مگاشاپ</div>
+                    <div><a href="">فروش در مگاشاپ</a></div>
+                    <div><a href="">فرصت‌های شغلی</a></div>
+                    <div><a href="">گزارش تخلف در مگاشاپ</a></div>
+                    <div><a href="">تماس با مگاشاپ</a></div>
+                    <div><a href="">درباره مگاشاپ</a></div>
+                </div>
+                <div class="col-3">
+                    <div>خدمات مشتریان</div>
+                    <div><a href="">پاسخ به پرسش های متداول</a></div>
+                    <div><a href="">رویه های بازگرداندن کالا</a></div>
+                    <div><a href="">شرایط استفاده</a></div>
+                    <div><a href="">حریم خصوصی</a></div>
+                    <div><a href="">گزارش باگ</a></div>
+                </div>
+                <div class="col-3">
+                    <div>راهنمای خرید از مگاشاپ</div>
+                    <div><a href="">نحوه ثبت سفارش</a></div>
+                    <div><a href="">رویه ارسال سفارش</a></div>
+                    <div><a href="">شیوه های پرداخت</a></div>
+                </div>
+                <div class="col-3">
+                    <div>ما را دنبال کنید</div>
+                    <a href="https://www.instagram.com/" target="_blank" class="ae-social-icons">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=en" target="_blank" class="ae-social-icons">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/?original_referer=" target="_blank" class="ae-social-icons">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="ae-social-icons">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row ae-footer-down">
+                <div class="col-8">
+                    <div>فروشگاه اینترنتی مگاشاپ، بررسی، انتخاب و خرید آنلاین</div>
+                    <p>
+                        یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه اینترنتی مگاشاپ سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.
+                    </p>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div><img src="assets/img/namad1.webp" alt=""></div>
+                    <div><img src="assets/img/namad2.webp" alt=""></div>
+                    <div><img src="assets/img/namad3.png" alt=""></div>
+                </div>
+            </div>
+
+
+        </div>
+      </div>
+    <!-- end of footer -->
+
+    
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

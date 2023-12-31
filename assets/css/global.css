@@ -1,0 +1,47 @@
+:root{
+    --ae-first: #ff3131 ;
+    --ae-second:#fff;
+    --ae-third:#000;
+}
+.ae-text-first{
+    color: var(--ae-first);
+}
+.ae-bg-first{
+    background-color: var(--ae-first);
+}
+.ae-btn-first{
+    height: 50px;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+.ae-btn-first:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+.ae-btn-first:focus{
+    outline: none;
+}
+.ae-btn-first{
+    background-image: linear-gradient(to right, var(--ae-first), #f15e64, #e14e53, var(--ae-first));
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+.ae-text-second{
+    color: var(--ae-second);   
+}
+.ae-bg-second{
+    background-color: var(--ae-second);
+}
+
+.ae-bg-third{
+    background-color: var(--ae-third);
+}

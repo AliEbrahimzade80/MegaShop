@@ -1,0 +1,179 @@
+@media (max-width: 575px){
+    .ae-logo img{
+        height: 70px !important;
+    }
+    .ae-btn-first{
+        height: 25px !important;
+        font-size: 7px !important;
+    }
+    .ae-market-img img{
+        width: 120% !important;
+    }
+    .ae-kalaha button{
+        font-size:25% !important;
+    }
+    .ae-price{
+        font-size: 7px !important;
+    }
+    .ae-off-price{
+        font-size: 7px !important;
+    }
+    .ae-off-badge{
+        font-size: 7px !important;
+    }
+    .ae-section-title{
+        font-size: 45px;
+    }
+    .ae-form-box{
+        width: 360px !important;
+    }
+}
+@media (max-width: 767px){
+    .ae-btn-first{
+        height: 32px;
+        font-size: 10px;
+    }
+    .ae-btn-login{
+        height: 30px !important;
+        font-size: 10px !important;
+        padding: 0 !important;
+    }
+    .ae-btn-signup{
+        height: 30px;
+        font-size: 10px !important;
+    }
+    .ae-disable-items{
+        display: none;
+    }
+    .ae-footer-up img{
+        width: 40%;
+    }
+    .ae-footer-title{
+        font-size: 22px !important;
+    }
+    .ae-footer span{
+        font-size: 8px !important;
+    }
+    .ae-footer-up div{
+        font-size: 6px !important;
+    }
+    .ae-footer-mid div{
+        font-size: 10px !important;
+    }
+    .ae-footer-mid a{
+        font-size: 7px !important;
+    }
+    .ae-social-icons i{
+        font-size: 10px !important;
+    }
+    .ae-wrapper1 i{
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 10px !important;
+    }
+    .ae-wrapper2 i{
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 10px !important;
+    }
+    .ae-wrapper3 i{
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 10px !important;
+    }
+    .ae-pishnehad-title{
+        font-size: 18px !important;
+    }
+    .ae-brand-title{
+        font-size: 18px !important;
+    }
+    .ae-ms-title{
+        font-size: 18px !important;
+    }
+    .ae-most-sell .ae-ms-mtn{
+        font-size: 12px !important;
+    }
+    .ae-off-tag{
+        font-size: 5px !important;
+    }
+    .ae-off-badge{
+        font-size: 10px;
+    }
+}
+@media (max-width: 991px){
+    .ae-search{
+        order: 1;
+        display: flex !important;
+        justify-content: center !important;
+        margin: 0 auto !important;
+    }
+    .ae-menu{
+        order: 2;
+    }
+    .ae-menu nav{
+       display: flex !important;
+       justify-content: center !important;
+       margin: 0 auto !important;
+    }
+    .ae-item{
+        font-size: 10px !important;
+        padding: 8px !important;
+    }
+    .ae-input-search{
+        height: 20px !important;
+    }
+    .ae-btn-search i{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        right: 18px;
+        top: 7px;
+    }
+    .ae-pishnehad-items div > div{
+        font-size: 7px !important;
+    }
+    .ae{
+        height: 90px !important;
+    }
+    .ae-reading-mtn{
+        font-size: 8px;
+    }
+    .ae-social-icons i:hover{
+        color: #fff;
+        border: none;
+        box-shadow: none !important;
+    }
+    .ae-footer-down div{
+        font-size: 10px !important;
+    }
+    .ae-footer-down p{
+        font-size: 7px !important;
+    }
+    .ae-price{
+        font-size: 12px;
+    }
+    .ae-kalaha button{
+        font-size:50%;
+    }
+    .ae-off-price{
+    font-size: 12px;
+    }
+}
+@media (max-width: 1200px){
+
+}
+
+
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 992px){
+    
+}
+@media (min-width: 1201px){
+    
+}
